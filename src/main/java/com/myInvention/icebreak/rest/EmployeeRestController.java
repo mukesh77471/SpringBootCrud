@@ -15,7 +15,7 @@ public class EmployeeRestController {
 
     private final EmployeeService employeeService;
 
-    private JsonMapper jsonMapper;
+    private final JsonMapper jsonMapper;
 
     @Autowired
     public EmployeeRestController(EmployeeService employeeService, JsonMapper jsonMapper) {
